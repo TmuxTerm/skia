@@ -265,7 +265,8 @@ public:
         return fBounds;
     }
 
-    SkRRect getRRect() const;
+    // rust-skia: Implementation is missing.
+    // SkRRect getRRect() const;
 
     /**
      * Transforms a path ref by a matrix, allocating a new one only if necessary.
